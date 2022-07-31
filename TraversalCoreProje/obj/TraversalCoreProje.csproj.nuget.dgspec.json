@@ -34,6 +34,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
               "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
               }

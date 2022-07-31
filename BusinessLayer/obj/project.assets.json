@@ -1520,6 +1520,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5802,6 +5817,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -5810,6 +5830,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DataAccessLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
@@ -5851,6 +5872,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
             "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "C:\\Users\\Rabia Nur\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
             }
