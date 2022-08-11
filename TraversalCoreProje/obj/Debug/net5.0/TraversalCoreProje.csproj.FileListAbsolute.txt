@@ -161,3 +161,4 @@ C:\Users\Rabia Nur\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\
 C:\Users\Rabia Nur\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\LayoutPartial\_FooterPartial.cshtml.g.cs
 C:\Users\Rabia Nur\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\LayoutPartial\_ScriptsPartial.cshtml.g.cs
 C:\Users\Rabia Nur\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_SliderPartial\Default.cshtml.g.cs
+C:\Users\Rabia Nur\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_PopularDestinationsPartial\Default.cshtml.g.cs
